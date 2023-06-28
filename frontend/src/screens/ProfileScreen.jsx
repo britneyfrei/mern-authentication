@@ -75,7 +75,7 @@ const ProfileScreen = () => {
 						placeholder="Enter Password"
 						value={password}
 						onChange={(e) => setPassword(e.target.value)}
-						autoComplete="on"
+						autoComplete="new-password"
 					/>
 				</Form.Group>
 				<Form.Group className="my-2" controlId="confirmPassword">
@@ -85,7 +85,7 @@ const ProfileScreen = () => {
 						placeholder="Confirm Password"
 						value={confirmPassword}
 						onChange={(e) => setConfirmPassword(e.target.value)}
-						autoComplete="on"
+						autoComplete="new-password"
 					/>
 				</Form.Group>
 				{isLoading && <Loader />}

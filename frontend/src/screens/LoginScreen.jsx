@@ -55,7 +55,7 @@ const LoginScreen = () => {
 						placeholder="Enter Password"
 						value={password}
 						onChange={(e) => setPassword(e.target.value)}
-						autoComplete="on"
+						autoComplete="current-password"
 					/>
 				</Form.Group>
 				{isLoading && <Loader />}

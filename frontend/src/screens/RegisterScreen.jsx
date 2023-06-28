@@ -61,7 +61,7 @@ const RegisterScreen = () => {
 						placeholder="Enter Email"
 						value={email}
 						onChange={(e) => setEmail(e.target.value)}
-						autoComplete="on"
+						autoComplete="new-password"
 					/>
 				</Form.Group>
 				<Form.Group className="my-2" controlId="password">
@@ -71,7 +71,7 @@ const RegisterScreen = () => {
 						placeholder="Enter Password"
 						value={password}
 						onChange={(e) => setPassword(e.target.value)}
-						autoComplete="on"
+						autoComplete="new-password"
 					/>
 				</Form.Group>
 				<Form.Group className="my-2" controlId="confirmPassword">
